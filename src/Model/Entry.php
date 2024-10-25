@@ -33,6 +33,8 @@ final class Entry
 
     private ?string $ip = null;
 
+    private ?string $endpoint = null;
+
     private ?\DateTimeImmutable $created_at = null;
 
     /**
@@ -107,6 +109,14 @@ final class Entry
     public function getIp(): ?string
     {
         return $this->ip;
+    }
+
+    /**
+     * Get the value of endpoint.
+     */
+    public function getEndpoint(): ?string
+    {
+        return $this->endpoint;
     }
 
     /**

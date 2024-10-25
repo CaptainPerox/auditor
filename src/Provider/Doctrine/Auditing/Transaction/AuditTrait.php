@@ -289,12 +289,16 @@ trait AuditTrait
             $user_fqdn = DoctrineHelper::getRealClassName($user);
         }
 
+
+        $endpoint = $_SERVER['REQUEST_URI'] ?? 'n/a';
+
         return [
             'client_ip' => $client_ip,
             'user_firewall' => $user_firewall,
             'user_fqdn' => $user_fqdn,
             'user_id' => $user_id,
             'username' => $username,
+            'endpoint' => $endpoint,
         ];
     }
 

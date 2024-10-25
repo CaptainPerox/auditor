@@ -224,6 +224,7 @@ final class TransactionProcessor implements TransactionProcessorInterface
             'blame_user' => $data['blame']['username'],
             'blame_user_fqdn' => $data['blame']['user_fqdn'],
             'blame_user_firewall' => $data['blame']['user_firewall'],
+            'endpoint' => $data['blame']['endpoint'],
             'ip' => $data['blame']['client_ip'],
             'created_at' => $dt->format('Y-m-d H:i:s.u'),
         ];

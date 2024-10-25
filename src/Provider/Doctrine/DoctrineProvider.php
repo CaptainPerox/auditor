@@ -45,6 +45,7 @@ final class DoctrineProvider extends AbstractProvider
         'blame_user_fqdn' => '?',
         'blame_user_firewall' => '?',
         'ip' => '?',
+        'endpoint' => '?',
         'created_at' => '?',
     ];
 
