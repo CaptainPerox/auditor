@@ -1,5 +1,5 @@
 {
-  "name": "damienharper/auditor",
+  "name": "captainperox/auditor",
   "type": "library",
   "version": "dev-main",
   "description": "The missing audit log library.",
