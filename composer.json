@@ -1,7 +1,7 @@
 {
   "name": "captainperox/auditor",
   "type": "library",
-  "version": "dev-main",
+  "version": "dev-master",
   "description": "The missing audit log library.",
   "keywords": ["doctrine", "audit", "audit-log", "audit-trail"],
   "license": "MIT",
