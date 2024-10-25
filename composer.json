@@ -1,6 +1,7 @@
 {
   "name": "damienharper/auditor",
   "type": "library",
+  "version": "dev-main",
   "description": "The missing audit log library.",
   "keywords": ["doctrine", "audit", "audit-log", "audit-trail"],
   "license": "MIT",
@@ -8,6 +9,12 @@
     {
       "name": "Damien Harper",
       "email": "damien.harper@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+        "type": "vcs",
+        "url": "https://github.com/captainperox/auditor"
     }
   ],
   "require": {
